@@ -84,7 +84,7 @@ function transitionToDashboard(handle, role) {
     
     // Redirect to the Platform folder after 1 second
     setTimeout(() => {
-        window.location.href = "../Platfom/index.html";
+        window.location.href = "Me.html";
     }, 1000);
 }
 
