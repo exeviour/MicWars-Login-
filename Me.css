@@ -1,0 +1,14 @@
+body { font-family: 'Inter', sans-serif; background-color: #070a13; color: #f8fafc; }
+.neon-glow-cyan { box-shadow: 0 0 25px rgba(0, 242, 254, 0.35); }
+.neon-glow-purple { box-shadow: 0 0 25px rgba(79, 172, 254, 0.35); }
+.neon-border-cyan { border-color: rgba(0, 242, 254, 0.4); }
+.neon-border-purple { border-color: rgba(79, 172, 254, 0.4); }
+.metallic-card {
+    background: linear-gradient(135deg, rgba(19, 27, 49, 0.9) 0%, rgba(11, 16, 29, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #070a13; }
+::-webkit-scrollbar-thumb { background: #1e294b; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #4facfe; }
